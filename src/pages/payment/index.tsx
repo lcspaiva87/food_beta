@@ -4,11 +4,11 @@ import { Inter } from "@next/font/google";
 import { useRouter } from "next/router";
 
 
-export default function Home() {
-	const {asPath} = useRouter();
+export default function Payment() {
+
 	return (
 		<>
-			<Layout />
+			<h1>aqui</h1>
 
 		</>
 	);
